@@ -11,14 +11,14 @@ public static void main(String args[])
    long[] phoneNum ={8660745259l,9980721356l,6680721356l,7760721356l,8660721356l,8660721356l,8095653076l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l};
    boolean[] pass={true,false,true,false,true,false,true,false,true,false,true,false,true,false,true,false,false,true,false,true};
      for(int i=0;i<20;i++){
-    System.out.println(numbers[i]);
-     System.out.println(percentage[i]);
-     System.out.println(bal[i]);
-    System.out.println(rollNum[i]);
- System.out.println(consonants[i]);
- System.out.println(age [i]);
- System.out.println(phoneNum[i]);
- System.out.println(pass[i]);
+          System.out.println(numbers[i]);
+          System.out.println(percentage[i]);
+          System.out.println(bal[i]);
+          System.out.println(rollNum[i]);
+          System.out.println(consonants[i]);
+          System.out.println(age [i]);
+          System.out.println(phoneNum[i]);
+          System.out.println(pass[i]);
     
 }
 }
