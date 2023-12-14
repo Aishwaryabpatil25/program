@@ -10,7 +10,8 @@ public static void main(String args[])
    byte[] age ={(byte)10,(byte)20,(byte)21,(byte)23,(byte)25,(byte)35,(byte)65,(byte)43,(byte)24,(byte)65,(byte)75,(byte)80,(byte)90,(byte)92,(byte)45,(byte)64,(byte)37,(byte)28,(byte)32,(byte)72};
    long[] phoneNum ={8660745259l,9980721356l,6680721356l,7760721356l,8660721356l,8660721356l,8095653076l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l,8660721356l};
    boolean[] pass={true,false,true,false,true,false,true,false,true,false,true,false,true,false,true,false,false,true,false,true};
-     for(int i=0;i<20;i++){
+     for(int i=0;i<20;i++)
+       {
         System.out.println(numbers[i]);
         System.out.println(percentage[i]);
         System.out.println(bal[i]);
@@ -23,3 +24,4 @@ public static void main(String args[])
 }
 }
 }
+
