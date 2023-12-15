@@ -17,12 +17,12 @@ public static void main(String [] args)
 //2. printing from middle -> both ways 
 
 
-    int mid =rollNo.length/2;
-    for(int i=mid-1;i>=0;i--)
+    
+    for(int i=(rollNo.length-1)/2;i>=0;i--)
       {
           System.out.println(rollNo[i]);
       }
-    for(int i=mid;i<rollNo.length;i++)
+    for(int i=(rollNo.length-1)/2;i<rollNo.length;i++)
       {
          System.out.println(rollNo[i]);
       }
@@ -34,7 +34,7 @@ public static void main(String [] args)
 
      for(int i=0;i<rollNo.length;i++)
         {
-          if(i%2==0)
+          if(rollNo[i]%2==0)
            { 
               System.out.println(rollNo[i]);
            }
@@ -45,7 +45,7 @@ public static void main(String [] args)
 
      for(int i=0;i<rollNo.length;i++)
          {
-            if(i%2!=0)
+            if(rollNo[i]%2!=0)
              { 
                 System.out.println(rollNo[i]);
               }
