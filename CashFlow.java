@@ -3,45 +3,45 @@ public class CashFlow{
 	public static void main(String args[])
 	{
 		
-		byte number=25;
-		short value=number;
+		byte age=25;
+		short value=age;
 		System.out.println(value);
 	
 		short number1=300;
 		int value1=number1;
 		System.out.println(value1);
 
-		int number2=30000;
-		long value2=number2;
+		int rollNo=451501;
+		long value2=rollNo;
 		System.out.println(value2);
 
-		long number3=1212311234l;
-		int value3=(int)number3;
+		long accNo=1212311234l;
+		int value3=(int)accNo;
 		System.out.println(value3);
 
 		int number4=12453;
 		short value4=(short)number4;
 		System.out.println(value4);
 
-		short number5=65;
-		byte value5=(byte)number5;
+		short emp=65;
+		byte value5=(byte)emp;
 		System.out.println(value5);
 
-		int number6=82;
-		char value6=(char)number6;
+		int consonant=82;
+		char value6=(char)consonant;
 		System.out.println(value6);
 
-		char char1='a';
-		int value7=char1;
+		char alphabet='a';
+		int value7=alphabet;
 		System.out.println(value7);
 
-		float number8=43.543f;
-		double value8=number8;
+		float temp=43.543f;
+		double value8=temp;
 		System.out.println(value8);
 		
 
-		double number9=65.23146d;
-		float value9=(float)number9;
+		double balance=65.23146d;
+		float value9=(float)balance;
 		System.out.println(value9);
 	
 
