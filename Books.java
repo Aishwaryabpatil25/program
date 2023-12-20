@@ -41,7 +41,7 @@ public class Books
          
          Books book4 = new Books("Python",560,"Guido van Rossum",10000,1991,"  Python Software Foundation","python");
 
-         Books book5 = new Books("Data Structure",700,"Anuradha A. Puntambekar",3200,2020," Technical Publications","DS");
+         Books book5 = new Books("Data Structure",700,"Anuradha Puntambekar",3200,2020," Technical Publications","DS");
 
          Books book6 = new Books("Data Science",600,"Jane Smith", 20000, 2021, "DataTech Publishing", "Data Science");
 
