@@ -13,7 +13,7 @@ public class Plant
      Plant(String plantName)
      {
      this("Bamboo","Bambusoideae");
-     System.out.println(plantName);
+     System.out.println("PlantName:"+plantName);
          }
      
       
@@ -21,14 +21,14 @@ public class Plant
        { 
         this("Bambusoideae",600);
         
-        System.out.println(plantName);
-        System.out.println(plantFamily);
+        System.out.println("PlantName:"+plantName);
+        System.out.println("PlantFamily:"+plantFamily);
         }
      
      Plant(String plantFamily,int plantdensityOfGrowth)
       {
-        System.out.println(plantFamily);
-        System.out.println(plantdensityOfGrowth);
+        System.out.println("PlantFamily:"+plantFamily);
+        System.out.println("PlantdensityOfGrowth:"+plantdensityOfGrowth);
       }
     
 
