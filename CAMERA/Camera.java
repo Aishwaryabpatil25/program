@@ -10,12 +10,12 @@ public class Camera
      int modelYear;
      String []features;
 
-      public Camera() 
+       Camera() 
    {
       System.out.println("no parameter");          
     }
 
-      public Camera(String brandName, double price, int resolution, CameraType type, BatteryType batteryType,ChargingType chargingType, DisplayType displayType, int modelYear, String []features) 
+      Camera(String brandName, int price, int resolution, CameraType type, BatteryType batteryType,ChargingType chargingType, DisplayType displayType, int modelYear, String []features) 
       {
         this.brandName = brandName;
         this.price = price;
@@ -29,24 +29,18 @@ public class Camera
       }
 
      
-       static void displayCameraInformation(Camera camera) 
+       public void displayCameraInformation() 
         {
-        System.out.println("Brand: " + camera.getBrandName());
-        System.out.println("Price: $" + camera.getPrice());
-        System.out.println("Resolution: " + camera.getResolution() + " MP");
-        System.out.println("Type: " + camera.getType());
-        System.out.println("Battery Type: " + camera.getBatteryType());
-        System.out.println("Charging Type: " + camera.getChargingType());
-        System.out.println("Display Type: " + camera.getDisplayType());
-        System.out.println("Model Year: " + camera.getModelYear());
-        System.out.println("Features: " + camera.getFeatures());
+        System.out.println("Brand: " + brandName);
+        System.out.println("Price: " + price);
+        System.out.println("Resolution: " + resolution );
+        System.out.println("Type: " +type);
+        System.out.println("Battery Type: " + batteryType);
+        System.out.println("Charging Type: " + chargingType);
+        System.out.println("Display Type: " + displayType);
+        System.out.println("Model Year: " + modelYear);
+        System.out.println("Features: " );
        
     }
 
-      
-             
-
-
-
-
-}
+ }

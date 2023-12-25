@@ -1,4 +1,4 @@
 public enum ChargingType 
     {
-        USB, ADAPTER, WIRELESS,c,b,iphone
+        USB, ADAPTER, WIRELESS,C,B,IPHONE;
     }
