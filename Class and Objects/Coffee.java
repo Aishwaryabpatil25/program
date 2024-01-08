@@ -7,12 +7,12 @@ public class Coffee
    boolean powerOn; 
    int price;
  
-   CoffeeMachine(int Waterlevel,int coffeeBeanQuantity,int temperature,int waterLevel,boolean powerOn,int price)
+   CoffeeMaker(int Waterlevel,int coffeeBeanQuantity,int temperature,String beanType,boolean powerOn,int price)
       {
        this. Waterlevel =  Waterlevel;
        this.coffeeBeanQuantity = coffeeBeanQuantity;
        this.temperature = temperature;
-       this.waterLevel = waterLevel;
+       this.beanType = beanType;
        this.powerOn = powerOn;
        this.price = price;
    }
@@ -21,11 +21,11 @@ public class Coffee
         public void display()
              {
                 System.out.println(" Waterlevel:"+ Waterlevel);
-                 System.out.println("coffeeBeanQuantity:"+coffeeBeanQuantity);
-                 System.out.println("temperature:"+temperature);
-                 System.out.println("waterLevel:"+waterLevel);
-                  System.out.println("powerOn:"+powerOn);
-                   System.out.println("price:"+price);
+                System.out.println("coffeeBeanQuantity:"+coffeeBeanQuantity);
+                System.out.println("temperature:"+temperature);
+                System.out.println("beanType:"+beanType);
+                System.out.println("powerOn:"+powerOn);
+                System.out.println("price:"+price);
 
             }
 
@@ -42,6 +42,6 @@ public class Coffee
           static void grindBeans()
             {
               
-              system.out.println("beans are grinded");
+              System.out.println("beans are grinded");
             }
 }

@@ -1,8 +1,8 @@
 public class Music
 {
         String   song;
-        String playlist;
-        int volumelevel
+        String playList;
+        int volumeLevel;
         String state;
         boolean isShuffled;
         String type;
@@ -10,10 +10,10 @@ public class Music
      
 
 
-    Music( String   song,String playlist,int volumelevel,String state,boolean isShuffled, String type)
+    Music( String   song,String playList,int volumeLevel,String state,boolean isShuffled, String type)
            {
             this.song = song;
-            this.playlist = playList;
+            this.playList = playList;
             this.volumeLevel = volumeLevel;
             this.state = state;
             this.isShuffled = isShuffled;

@@ -18,14 +18,13 @@ public class Student
 
          }
 
-    publi void display()
+    public void display()
        {
             System.out.println("rollNo:"+rollNo);
-             System.out.println("grades:"+grades);
-              System.out.println("attendance :"+attendance );
-               System.out.println("name:"+name);
-                 System.out.println("address:"+address);
-                 System.out.println("course:"+course);
+            System.out.println("grades:"+grades);
+            System.out.println("attendance :"+attendance );
+            System.out.println("name:"+name);                System.out.println("address:"+address);
+            System.out.println("course:"+course);
        
            }
          static void study()

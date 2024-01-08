@@ -37,14 +37,14 @@ public class Car
             System.out.println("accelerate the car");
            }
 
-   Static void brake()
+   static void brake()
              {
-            System.out.println("  car brake is good");
+            System.out.println("car brake is good");
            }
      
     static void changeGears()
             {
-               System.out.println("  car gear is changed");
+               System.out.println("car gear is changed");
              }
 
 }

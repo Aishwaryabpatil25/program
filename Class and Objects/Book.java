@@ -22,10 +22,10 @@ public class Book
      {
             System.out.println("title:"+title);
             System.out.println("author:"+author);
-            System.out.println("publicationYear"+publicationYear);
+            System.out.println("publicationYear:"+publicationYear);
             System.out.println("numberOfPages:"+numberOfPages);
-            System.out.println("type"+type); 
-            System.out.println("price"+price); 
+            System.out.println("type:"+type); 
+            System.out.println("price:"+price); 
 
          }
 

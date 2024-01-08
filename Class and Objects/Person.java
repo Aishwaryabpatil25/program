@@ -7,7 +7,7 @@ public class Person
    String color;
    float weight;
 
-    Person(String name,int age,String address,String gender,String color)
+    Person(String name,int age,String address,String gender,String color,float weight)
      {
       this.name = name;
       this.age = age;

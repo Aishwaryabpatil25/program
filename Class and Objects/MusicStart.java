@@ -4,9 +4,9 @@ public class MusicStart
       {
        Music obj = new Music("let me dowm slowly","dowm",80,"play",true,"silentSongs");
         obj.display();
-        Music.play()
-        Music.pause()
-        Music.skip()
+        Music.play();
+        Music.pause();
+        Music.skip();
 
 
 }
