@@ -5,6 +5,7 @@ public class Person
    String address;
    String gender;
    String color;
+   float weight;
 
     Person(String name,int age,String address,String gender,String color)
      {
@@ -13,6 +14,7 @@ public class Person
       this.address = address;
       this.gender = gender;
       this.color = color;
+      this.weight = weight;
     }
 
     public void display()
@@ -22,6 +24,7 @@ public class Person
           System.out.println("address: "+address);
           System.out.println("gender:"+gender  );
           System.out.println(" color:"+color);
+          System.out.println(" weight:"+weight);
         }
 
     static void eat()

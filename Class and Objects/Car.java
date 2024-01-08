@@ -11,7 +11,7 @@ public class Car
 
 
 
-  Car(String model, String color,int currentSpeed,int fuelLevel,int price)
+  Car(String model, String color,int currentSpeed,int fuelLevel,int price,String name)
      {
        this.model = model;
        this.color = color;

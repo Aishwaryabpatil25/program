@@ -7,7 +7,7 @@ public class Coffee
    boolean powerOn; 
    int price;
  
-   CoffeeMachine(int Waterlevel,int coffeeBeanQuantity,int temperature,int waterLevel,boolean powerOn)
+   CoffeeMachine(int Waterlevel,int coffeeBeanQuantity,int temperature,int waterLevel,boolean powerOn,int price)
       {
        this. Waterlevel =  Waterlevel;
        this.coffeeBeanQuantity = coffeeBeanQuantity;

@@ -8,7 +8,7 @@ public class Book
        int price;
 
 
-    Book( int numberOfPages, String type,int price)
+    Book( String title,String author,int publicationYear,int numberOfPages, String type,int price)
        {
          this.numberOfPages = numberOfPages;
          this.type = type;
