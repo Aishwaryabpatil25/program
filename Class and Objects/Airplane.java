@@ -1,7 +1,7 @@
 public class Airplane
 {
      String aircraftType; 
-      String destination;
+     String destination;
      int  currentAltitude; 
      int  fuelLevel;
      String seatType;
@@ -13,6 +13,7 @@ public class Airplane
             this.currentAltitude = currentAltitude;
             this.fuelLevel = fuelLevel;
             this.destination = destination;
+            this.seatType = seatType;
             this.isFlying = isFlying;
        }
 
@@ -22,6 +23,7 @@ public class Airplane
           System.out.println("currentAltitude:" +currentAltitude);
           System.out.println("fuelLevel:" +fuelLevel);
           System.out.println("destination:" +destination);
+          System.out.println("seatType:" +seatType);
           System.out.println("isFlying:" +isFlying);
          }
        static void takeOff()
