@@ -32,9 +32,9 @@ public class CompanyStart
    
      System.out.println("__________________________________");
 
-     Software software = new Software(true,"xyz");
+     Software software = new Software(true,"SystemSoftware");
 
-     Data data = new Data("abc",10);
+     Data data = new Data("WorkersData",10);
 
      It it = new It(50,10,software,data);
      it.software.creationOfSoftwareProduct();
